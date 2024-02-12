@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Customization Demo</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .custom-container {
+            margin: 50px auto;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-heading {
+            color: #007bff;
+            text-align: center;
+        }
+
+        .custom-card {
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .custom-btn {
+            background-color: #28a745;
+            color: #fff;
+            border: 1px solid #28a745;
+            transition: background-color 0.3s ease;
+        }
+
+        .custom-btn:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container custom-container">
+    <h2 class="custom-heading">Bootstrap Customization Demo</h2>
+    <div class="card custom-card">
+        <div class="card-body">
+            <p class="card-text">Customize Bootstrap classes using your own CSS.</p>
+            <button class="btn btn-lg custom-btn">Custom Button</button>
+        </div>
+    </div>
+</div>
+
+<!-- Link to Bootstrap JS (optional, for Bootstrap features that require JS) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
